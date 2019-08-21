@@ -12,7 +12,7 @@
 		zwrite off
 
         CGPROGRAM
-        #pragma surface surf NewLambert noambient alpha:fade
+        #pragma surface surf NewLambert alpha:fade
         #pragma target 3.0
 
         sampler2D _MainTex;

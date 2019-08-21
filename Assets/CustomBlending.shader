@@ -9,7 +9,7 @@
         Tags { "RenderType"="Transparent" "Queue"="Transparent" }
         LOD 200
 		zwrite off
-		blend SrcAlpha OneMinusSrcAlpha
+		blend DstColor SrcColor
 
         CGPROGRAM
         #pragma surface surf Lambert noambient keepalpha
